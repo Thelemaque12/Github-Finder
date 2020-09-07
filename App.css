@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+header {
+  min-width: 100vw;
+  height: 40px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  float: left;
+  padding-left: 10px;
+  background-color: #1e272b;
+  padding-top: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.user-style {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  grid-gap: 1rem;
+}
+.card{
+  align-items: center;
+  padding-top: 5px;
+  border-radius: 0;
+}
